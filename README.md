@@ -33,6 +33,8 @@ El archivo de entrada **no se incluye en el repositorio** por su tamaño
 (aproximadamente 3,4 millones de registros). Es información pública y se
 descarga del portal de datos abiertos de la CRC (Postdata):
 
+ https://www.postdata.gov.co/dataset/empaquetamiento-de-servicios-fijos
+
 - Formato: T.1.3 — Líneas o accesos y valores facturados o cobrados de
   servicios fijos individuales y empaquetados.
 - Periodo utilizado: 2022-1T a 2025-4T.

@@ -71,7 +71,7 @@ proyecto/
 ```
 
 ```bash
-git clone https://github.com/<usuario>/crc-anomalias-servicios-fijos.git codigo_final
+git clone https://github.com/MadeleineGA/TESIS_EAN_ANALITICA_DE_DATOS.git codigo_final
 
 python -m venv .venv
 source .venv/bin/activate          # en Windows: .venv\Scripts\activate

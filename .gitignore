@@ -1,0 +1,21 @@
+# Archivo de entrada: información pública, no se versiona por su tamaño
+entradas/*.csv
+entradas/*.parquet
+entradas/*.xlsx
+
+# Salidas reproducibles a partir del código
+salidas/*.parquet
+salidas/*.pkl
+salidas/anomalias_detectadas.csv
+requirements-lock.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db

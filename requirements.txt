@@ -1,0 +1,21 @@
+# Dependencias del pipeline de detección de anomalías
+# Reporte T.1.3 de servicios fijos · CRC
+#
+# Los resultados del Isolation Forest no son idénticos entre versiones
+# distintas de scikit-learn. Para dejar constancia exacta del entorno con que
+# se produjo una ejecución, el pie de cada informe HTML registra las versiones
+# efectivamente utilizadas; además puede fijarse el entorno completo con:
+#     pip freeze > requirements-lock.txt
+
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+scipy>=1.10
+matplotlib>=3.7
+
+# Lectura y escritura de la preparación intermedia en formato parquet.
+# Es opcional: si no está disponible, el pipeline recurre a pickle.
+pyarrow>=14.0
+
+# Solo para el notebook de exploración de variables
+jupyter>=1.0
